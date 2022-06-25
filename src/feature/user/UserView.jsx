@@ -13,7 +13,6 @@ useEffect(()=>{
    const getdatat=()=>{
  dispatch(fetchUsers("https://jsonplaceholder.typicode.com/users"))
 
-
    }
    getdatat()
 
